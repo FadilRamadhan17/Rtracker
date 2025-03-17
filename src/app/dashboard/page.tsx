@@ -1,9 +1,9 @@
 "use client";
 import { useEffect, useState } from "react";
-import IbadahStats from "./components/IbadahStats";
-import IbadahPointsChart from "./components/IbadahChart";
+import IbadahStats from "../components/IbadahStats";
+import IbadahPointsChart from "../components/IbadahChart";
 
-const Home = () => {
+const Dashboard = () => {
   const [data, setData] = useState(null);
 
   useEffect(() => {
@@ -23,4 +23,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Dashboard;
